@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/vuejs,node,macos,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=vuejs,node,macos,visualstudiocode
 
 ### macOS ###
 # General
@@ -200,4 +200,11 @@ dist
 # Ignore code-workspaces
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,node
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+dist/
+npm-debug.log
+yarn-error.log
+
+# End of https://www.toptal.com/developers/gitignore/api/vuejs,node,macos,visualstudiocode
