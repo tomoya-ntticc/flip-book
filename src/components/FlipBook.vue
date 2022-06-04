@@ -29,6 +29,7 @@ const store = reactive({
 
 <template>
   <swiper
+    class="w-10/12"
     :effect="'flip'"
     :grabCursor="true"
     :centeredSlides="true"
