@@ -7,8 +7,10 @@ import 'swiper/css';
 import "swiper/css/effect-flip";
 import '../style.css';
 
-import nature_1 from '../assets/nature-1.jpg'
-import nature_2 from '../assets/nature-2.jpg'
+import crow_1 from '../assets/crow_1.jpg'
+import crow_2 from '../assets/crow_2.jpg'
+import beautiful_drawing_1 from '../assets/beautiful_drawing_1.jpg'
+import beautiful_drawing_2 from '../assets/beautiful_drawing_2.jpg'
 
 
 SwiperCore.use([EffectFlip, Autoplay]);
@@ -21,7 +23,7 @@ const onSwiper = (swiper: SwiperClass) => {
 };
 
 const store = reactive({
-  files: [nature_1, nature_2]
+  files: [beautiful_drawing_1, beautiful_drawing_2]
 })
 </script>
 
@@ -31,9 +33,9 @@ const store = reactive({
     :grabCursor="true"
     :centeredSlides="true"
     :slidesPerView="'auto'"
-    :speed="1000"
+    :speed="5000"
     :autoplay="{
-      delay: 2500,
+      delay: 5000,
       disableOnInteraction: false,
     }"
     @swiper="onSwiper"
